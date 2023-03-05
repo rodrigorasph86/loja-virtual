@@ -1,0 +1,71 @@
+.navbar-brand{
+  font-size: 2rem;
+  color: #000;
+  font-family: 'Lobster', cursive;
+}
+
+.navbar-brand:hover{
+  color: #696868;
+}
+
+.nav-link {
+  margin-top: 10px;
+  margin-right: 10px;
+  color: black;
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+}
+.nav-link:hover{
+  color: $redColor;
+}
+
+.search {
+  height: 40px;
+  width: 90%;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -35px;
+  font-family: 'Rubik', sans-serif;
+  border: 2px solid $redColor;
+  
+}
+
+.btn0 {
+  height: 40px;
+  width: 60%;
+  outline: none;
+  border:none;
+  background-color: $redColor ;
+  color: #fff;
+  border-radius: 80px;
+  font-weight: 700;
+
+}
+
+.main {
+  background: url(../../images/fundo.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.main h1 {
+  font-size: 4rem;
+  font-weight: 700;
+
+}
+
+.btn1 {
+  height: 45px;
+  width: 35%;
+  border-radius: 60px;
+  border:none;
+  color:#fff;
+  outline: none;
+  background-color: $redColor;
+  font-weight: 700;
+}
+
+.texto {
+  margin-left: -150px;
+  margin-top: 80px;;
+}
