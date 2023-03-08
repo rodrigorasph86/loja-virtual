@@ -136,11 +136,22 @@ h1 {
   color: #fff;
 }
 
+.news input {
+  height: 45px;
+  width: 55%;
+  border: 2px solid #fff;
+  outline: none;
+  background: #000;
+  color: #fff;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
 .btn2 {
   height: 45px;
   width: 100px;
   background: #fff;
-  margin-left: -10px;
+  margin-left: -80px;
   border: 2px solid #fff;
   font-weight: bold;
   border-radius: 60px;
@@ -149,6 +160,20 @@ h1 {
 .btn2:hover {
   background-color: #f81a5c;
   transition: all 0.8s ease;
+}
+
+.news::placeholder {
+  color: #fff;
+}
+
+.news p {
+  margin: 0;
+}
+
+.fab {
+  font-size: 2.5rem;
+  cursor: pointer;
+  padding-right: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
