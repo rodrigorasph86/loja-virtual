@@ -43,7 +43,8 @@
 }
 
 .main {
-  background: url(../../images/fundo.jpg) no-repeat;
+  background:url(/fundo.jpg);
+  // background: url(../../images/fundo.jpg) no-repeat;
   background-size: cover;
   height: 100vh;
 }
@@ -105,9 +106,9 @@ h1{
 
 .orange{
 
-  background: url(../../images/mulherLaranja.jpg) no-repeat;
+  background: url(/mulherLaranja.jpg) no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 90vh;
 }
 
 .orange h1 {
