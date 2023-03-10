@@ -6,8 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "serve-build": "npx lite-server --baseDir=build",
-    "fix-images": "npx imagemin images-to-fix/* --out-dir=public/images"
+    "serve-build": "npx lite-server --baseDir=build"
   },
   "devDependencies": {
     "postcss": "^8.4.21",
